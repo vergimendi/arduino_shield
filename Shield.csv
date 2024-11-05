@@ -1,0 +1,15 @@
+Source:,C:\Users\Vergil Mendizabel\Documents\KiCadProjects\Shield\Shield.kicad_sch,,,,,,,,,,
+Date:,4/10/2023 23:52,,,,,,,,,,
+Tool:,Eeschema (7.0.0),,,,,,,,,,
+Generator:,C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py,,,,,,,,,,
+Component Count:,17,,,,,,,,,,
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor,DNP,MPN,Price ,Total Price,Page
+C1,1,.33u,C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,Unpolarized capacitor,,,,,,
+C2,1,.1u,C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,Unpolarized capacitor,,,,,,https://www.digikey.com/en/products/detail/kemet/C0805C104K5RAC7800/411169
+J1,1,Power,Conn_01x08,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,https://www.mouser.com/c/passive-components/capacitors/ceramic-capacitors/mlccs-multilayer-ceramic-capacitors/multilayer-ceramic-capacitors-mlcc-smd-smt/?capacitance=33%20uF&case%20code%20-%20in=0805
+J2,1,Digital/PWM,Conn_01x10,Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical,"Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,
+J3,1,Analog,Conn_01x06,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,
+J4,1,Digital/PWM,Conn_01x08,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-11417/6161755
+"J5, J6, J7, J8, J9, J10, J11, J12",8,Conn_01x04_Socket,Conn_01x04_Socket,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,"Generic connector, single row, 01x04, script generated",,,,,,https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A-LF-SN/1651047
+"R1, R2",2,4.7k,R,Resistor_SMD:R_0805_HandSolder,Resistor,,,,,,https://www.digikey.com/en/products/detail/yageo/RC0805JR-074K7L/728327
+U1,1,LM7805_TO220,LM7805_TO220,Package_TO_SOT_THT:TO-220-3_Vertical,"Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220",,,,,,https://www.mouser.com/c/semiconductors/power-management-ics/voltage-regulators-voltage-controllers/linear-voltage-regulators/?q=7805&package%20%2F%20case=TO-220
